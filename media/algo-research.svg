@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+  <title id="title">Algo Trading research pipeline</title>
+  <desc id="desc">Research documents flow through point-in-time data, backtesting and stress tests into paper trading. The illustration is not a performance chart.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#111b23"/><stop offset="1" stop-color="#263745"/></linearGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" stroke="#bcd6df" stroke-opacity=".075" fill="none"/></pattern>
+  </defs>
+  <rect width="1440" height="900" fill="url(#bg)"/><rect width="1440" height="900" fill="url(#grid)"/>
+  <path d="M0 742C285 622 420 805 681 696S1103 604 1440 697" stroke="#e9a879" stroke-opacity=".17" stroke-width="90" fill="none"/>
+  <text x="88" y="103" fill="#ecb98f" font-family="Arial,sans-serif" font-size="22" font-weight="700" letter-spacing="7">SYSTEMATIC RESEARCH / PROCESS</text>
+  <text x="88" y="184" fill="#f4f0e9" font-family="Arial,sans-serif" font-size="60" font-weight="700">Algo Trading</text>
+  <text x="88" y="230" fill="#b7c7ca" font-family="Arial,sans-serif" font-size="23">A paper-trading research system built to challenge its own results.</text>
+  <g stroke="#efb98d" stroke-width="3" fill="none"><path d="M360 505h60"/><path d="M685 505h60"/><path d="M1010 505h60"/></g>
+  <g fill="#efb98d"><path d="m413 495 13 10-13 10"/><path d="m738 495 13 10-13 10"/><path d="m1063 495 13 10-13 10"/></g>
+  <g font-family="Arial,sans-serif">
+    <g fill="#1b2b34" stroke="#90aeb3" stroke-opacity=".48" stroke-width="2">
+      <rect x="88" y="348" width="272" height="315" rx="18"/><rect x="413" y="348" width="272" height="315" rx="18"/><rect x="738" y="348" width="272" height="315" rx="18"/><rect x="1063" y="348" width="272" height="315" rx="18"/>
+    </g>
+    <g fill="#efb98d" font-size="19" font-weight="700" letter-spacing="3"><text x="119" y="407">01 / RESEARCH</text><text x="444" y="407">02 / DATA</text><text x="769" y="407">03 / VALIDATE</text><text x="1094" y="407">04 / REPLAY</text></g>
+    <g fill="#f1f4ef" font-size="28" font-weight="700"><text x="119" y="479">Frozen specs</text><text x="444" y="479">Point-in-time</text><text x="769" y="479">Backtest</text><text x="1094" y="479">Paper trade</text></g>
+    <g fill="#adc4c7" font-size="19"><text x="119" y="535">Global futures</text><text x="119" y="567">NSE + MCX</text><text x="444" y="535">No future leakage</text><text x="444" y="567">Synthetic inputs</text><text x="769" y="535">Costs &amp; delays</text><text x="769" y="567">Stress tests</text><text x="1094" y="535">Same strategy logic</text><text x="1094" y="567">Live orders disabled</text></g>
+  </g>
+  <rect x="88" y="748" width="274" height="54" rx="27" fill="#f1c39a"/><text x="112" y="783" fill="#23313b" font-family="Arial,sans-serif" font-size="18" font-weight="700" letter-spacing="1">SYNTHETIC DATA ONLY</text>
+  <text x="390" y="784" fill="#a9bdc1" font-family="Arial,sans-serif" font-size="18" letter-spacing="2">ARCHITECTURE ILLUSTRATION · NO PERFORMANCE CLAIM</text>
+</svg>
